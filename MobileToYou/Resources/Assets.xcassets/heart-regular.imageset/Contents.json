@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "heart-regular.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
