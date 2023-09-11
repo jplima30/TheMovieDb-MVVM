@@ -27,7 +27,7 @@
 		009197CA2935AAC100744251 /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009197C92935AAC100744251 /* MoviesService.swift */; };
 		00FA23EE29428CE800B8E616 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA23ED29428CE800B8E616 /* DoubleExtensions.swift */; };
 		55924C62295BD03900395FCB /* VIewModelMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924C61295BD03900395FCB /* VIewModelMovies.swift */; };
-		78200B4542ADA75F55D2EBD6 /* Pods_MobileToYou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8BAE59E58B7CC865CC72C8 /* Pods_MobileToYou.framework */; };
+		737154E93277A6BB097E5FC3 /* Pods_MobileToYou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFA9C162034ACAE5AFB4986 /* Pods_MobileToYou.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +52,10 @@
 		009197C72935AA2500744251 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		009197C92935AAC100744251 /* MoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
 		00FA23ED29428CE800B8E616 /* DoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
-		06F373C05D0DBC923CEEF1FF /* Pods-MobileToYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileToYou.debug.xcconfig"; path = "Target Support Files/Pods-MobileToYou/Pods-MobileToYou.debug.xcconfig"; sourceTree = "<group>"; };
+		3C6ADD9A90B537CFCFAED3D4 /* Pods-MobileToYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileToYou.debug.xcconfig"; path = "Target Support Files/Pods-MobileToYou/Pods-MobileToYou.debug.xcconfig"; sourceTree = "<group>"; };
+		51BBDC978CA63B60E5DD015C /* Pods-MobileToYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileToYou.release.xcconfig"; path = "Target Support Files/Pods-MobileToYou/Pods-MobileToYou.release.xcconfig"; sourceTree = "<group>"; };
 		55924C61295BD03900395FCB /* VIewModelMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewModelMovies.swift; sourceTree = "<group>"; };
-		DC8BAE59E58B7CC865CC72C8 /* Pods_MobileToYou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileToYou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1F3CFE81EF46F1A2BE5A4E2 /* Pods-MobileToYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileToYou.release.xcconfig"; path = "Target Support Files/Pods-MobileToYou/Pods-MobileToYou.release.xcconfig"; sourceTree = "<group>"; };
+		7EFA9C162034ACAE5AFB4986 /* Pods_MobileToYou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileToYou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78200B4542ADA75F55D2EBD6 /* Pods_MobileToYou.framework in Frameworks */,
+				737154E93277A6BB097E5FC3 /* Pods_MobileToYou.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 				00644CDB2931C2BD0030529B /* MobileToYou */,
 				00644CDA2931C2BD0030529B /* Products */,
 				4A1959DA5BE8BA738F91F13F /* Pods */,
-				75F5502CB4BCCCC5037CAACA /* Frameworks */,
+				4441F1424B7101BA9987EF98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,11 +164,19 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		4441F1424B7101BA9987EF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA9C162034ACAE5AFB4986 /* Pods_MobileToYou.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A1959DA5BE8BA738F91F13F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06F373C05D0DBC923CEEF1FF /* Pods-MobileToYou.debug.xcconfig */,
-				E1F3CFE81EF46F1A2BE5A4E2 /* Pods-MobileToYou.release.xcconfig */,
+				3C6ADD9A90B537CFCFAED3D4 /* Pods-MobileToYou.debug.xcconfig */,
+				51BBDC978CA63B60E5DD015C /* Pods-MobileToYou.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -181,14 +189,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		75F5502CB4BCCCC5037CAACA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DC8BAE59E58B7CC865CC72C8 /* Pods_MobileToYou.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,11 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00644CED2931C2BE0030529B /* Build configuration list for PBXNativeTarget "MobileToYou" */;
 			buildPhases = (
-				5F20296103FA0CBFB26EE8F6 /* [CP] Check Pods Manifest.lock */,
+				4AA8247E4E0538CF75A9775D /* [CP] Check Pods Manifest.lock */,
 				00644CD52931C2BD0030529B /* Sources */,
 				00644CD62931C2BD0030529B /* Frameworks */,
 				00644CD72931C2BD0030529B /* Resources */,
-				95361DF3B3497151267B0160 /* [CP] Embed Pods Frameworks */,
+				1E0817F777201980A1B75974 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,7 +257,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F20296103FA0CBFB26EE8F6 /* [CP] Check Pods Manifest.lock */ = {
+		1E0817F777201980A1B75974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileToYou/Pods-MobileToYou-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileToYou/Pods-MobileToYou-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileToYou/Pods-MobileToYou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AA8247E4E0538CF75A9775D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,23 +294,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		95361DF3B3497151267B0160 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobileToYou/Pods-MobileToYou-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobileToYou/Pods-MobileToYou-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileToYou/Pods-MobileToYou-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -454,7 +454,7 @@
 		};
 		00644CEE2931C2BE0030529B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06F373C05D0DBC923CEEF1FF /* Pods-MobileToYou.debug.xcconfig */;
+			baseConfigurationReference = 3C6ADD9A90B537CFCFAED3D4 /* Pods-MobileToYou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -482,7 +482,7 @@
 		};
 		00644CEF2931C2BE0030529B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F3CFE81EF46F1A2BE5A4E2 /* Pods-MobileToYou.release.xcconfig */;
+			baseConfigurationReference = 51BBDC978CA63B60E5DD015C /* Pods-MobileToYou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
